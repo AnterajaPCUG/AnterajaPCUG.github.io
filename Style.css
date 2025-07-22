@@ -1,0 +1,114 @@
+@media (max-width: 767px) {
+* {
+      margin: 0;
+      padding: 0;
+    }
+    body, html {
+      height: 100%;
+    }
+    .background {
+      background-image: url('PCUG.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+    }
+.btn-next {
+  position: fixed;
+      top: 5px;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: #fff;
+      background: linear-gradient(135deg, #ff004f, #ffaf00);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 4px 15px rgba(255, 165, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+    }
+
+    .btn-next:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #ffaf00, #ff004f);
+      box-shadow: 0 6px 20px rgba(255, 165, 0, 0.5);
+    }
+}
+    @media (min-width: 768px) {
+* {
+      margin: 0;
+      padding: 0;
+    }
+    body, html {
+      height: 100%;
+    }
+    .background {
+      background-image: url('PCUG.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+    }
+.btn-next {
+  position: fixed;
+      top: 5px;
+      padding: 15px 30px;
+      font-size: 32px;
+      color: #fff;
+      background: linear-gradient(135deg, #ff004f, #ffaf00);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 4px 15px rgba(255, 165, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+    }
+
+    .btn-next:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #ffaf00, #ff004f);
+      box-shadow: 0 6px 20px rgba(255, 165, 0, 0.5);
+    }
+    }
+ @media (min-width: 1024px) {
+* {
+      margin: 0;
+      padding: 0;
+    }
+    body, html {
+      height: 100%;
+    }
+    .background {
+      background-image: url('PCUG.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+    }
+.btn-next {
+  position: fixed;
+      top: 5px;
+      padding: 15px 30px;
+      font-size: 64px;
+      color: #fff;
+      background: linear-gradient(135deg, #ff004f, #ffaf00);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 4px 15px rgba(255, 165, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+    }
+
+    .btn-next:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #ffaf00, #ff004f);
+      box-shadow: 0 6px 20px rgba(255, 165, 0, 0.5);
+    }
+ }
